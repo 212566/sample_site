@@ -1,0 +1,146 @@
+:root {
+    --TEAL-BLUE : #33658A;
+    --SAFFRON : #F6AE2D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E282A;
+    font-weight: 300;
+    
+}
+
+nav {
+    background-color: var(--TEAL-BLUE);
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 12);
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    width:15%;
+    font-size: 22px;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 5px;
+    padding: 0px 6px;
+    border-top: 5px solid rgb(0, 0, 12);
+}
+
+.nav-items {
+    font-family: 'Crimson Text', serif;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    height: 30px;
+}
+
+.nav-items a {
+    color:  rgb(0, 0, 12);
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 20px 60px;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items a:hover {
+    background-color: rgb(0, 0, 12);
+    color: var(--TEAL-BLUE);
+
+}
+
+.main-content {
+    margin: 30px auto;
+    width:65%;
+    border: 8px solid var(--SAFFRON);
+}
+
+.first-thread {
+    padding: 5px;
+}
+
+.spacer {
+    background-color: var(--SAFFRON);
+    height: 5px;
+    margin: 0px 5px;
+}
+.thread-title {
+    color: rgb(0, 0, 12);
+    border: 3px solid var(--TEAL-BLUE);
+    background-color: var(--TEAL-BLUE);
+    margin: 5px;
+}
+.thread-author-section {
+    font-family: 'Crimson Text', cursive;
+    color:rgb(0, 0, 12);
+    background-color:  var(--TEAL-BLUE);
+    margin: 5px 5px;
+    padding: 5px 5px;
+    height: 65px;  
+}
+
+.post-date p {
+    font-size: 12px;
+    padding-bottom:5px;
+}
+
+
+.author-subsection {
+    display: flex;
+}
+
+.author-data-container {
+    margin-left: 5px;
+    width:100%;
+}
+
+.author-avatar {
+    float:left;
+}
+
+.author-nickname {
+    font-size: 12px;
+}
+
+.author-statistics {
+    width:100%;
+    font-size: 12px;
+
+}
+.author-statistics ul {
+    list-style: none;
+}
+.author-statistics p {
+    float:left;
+    margin-right: 2px;
+}
+
+.author-statistics li {
+    float:left;
+    padding: 0px 2px;
+    align-content: center;
+
+}
+
+.thread-content {
+    margin: 5px;
+    padding: 5px;
+    background-color: var(--TEAL-BLUE);
+    min-height: 50vh;
+}
+
+
+.thread-content p {
+}
