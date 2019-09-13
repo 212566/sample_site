@@ -12,6 +12,7 @@
 body {
     background-color: #2E282A;
     font-weight: 300;
+    height: 580px;
     
 }
 
@@ -61,10 +62,16 @@ nav {
 
 }
 
+.banner {
+    min-height: 70px;
+}
+
 .main-content {
-    margin: 30px auto;
-    width:65%;
-    border: 8px solid var(--SAFFRON);
+    
+    float: left;
+    margin: 0px 20px 0px;
+    width:800px;
+    border: 10px solid var(--TEAL-BLUE);
 }
 
 .first-thread {
@@ -143,4 +150,33 @@ nav {
 
 
 .thread-content p {
+}
+
+.main-layout-container {
+    margin-top: 10px;
+}
+
+.sidebar-left {
+    float: left;
+    width: 200px; 
+    margin: 0px 5px 0px;
+}
+
+.sidebar-item {
+    background-color: var(--SAFFRON);
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.sidebar-advertisement {
+    float: right;
+    background-color: black;
+    width: 200px;
+    height: 510px;
+}
+
+.advertisement {
+
 }
